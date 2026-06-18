@@ -1,0 +1,18 @@
+# Core Data Science
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine Learning
+scikit-learn
+xgboost
+
+# Model Explainability
+shap
+
+# Utilities
+openpyxl    
