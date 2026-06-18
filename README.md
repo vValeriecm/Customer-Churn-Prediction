@@ -62,3 +62,20 @@ Customer-Churn-Prediction/
 - How to explain model results in simple business terms
 - End-to-end data science project workflow
 
+
+
+## How to Run This Project (Google Colab)
+
+1. Open [Google Colab](https://colab.research.google.com/)
+2. Upload the notebooks from the `notebooks/` folder
+3. Run the notebooks in this order:
+   - `01_eda.ipynb`
+   - `02_preprocessing.ipynb`
+   - `03_feature_engineering.ipynb`
+   - `04_modeling.ipynb`
+   - `05_evaluation_explainability.ipynb` (optional)
+
+**Install packages** (run this in the first cell of any notebook):
+
+```python
+!pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost shap
